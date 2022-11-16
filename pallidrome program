@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+ public static void main(String Args[]){
+       String name,rev="";
+        int length;
+        Scanner obj= new Scanner(System.in);
+        System.out.println("enter the  name");
+        name=obj.nextLine();
+        length=name.length();
+        for(int i=length-1;i>=0;i--)
+        rev=rev+name.charAt(i);
+        {
+         if (name.equals(rev)){
+             System.out.println("pallidrome");
+         }else {
+             System.out.println("Not a pallidrome");
+         }   
+        }
+    }     
+   
+}
